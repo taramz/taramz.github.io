@@ -37,11 +37,60 @@
     </nav>
 
     <section>
-      <ul> 
-        <li><a href='https://github.com/taramz/project_one'>Project 1</a>: Exploratory Data Analysis</li>
-        <li><a href='https://github.com/taramz/project_two'>Project 2</a>: Model Selection</li>
-        <li><a href='https://github.com/taramz/project_three'>Project 3</a>: Simulations and Transportability</li>
-      </ul>
+        <h3> School Projects</h3>
+        <p> This section highlights projects I have worked on during my time completing my masters degree. These projects showcase my skills in data analysis, simulation studies,
+            webpage design, and model building.
+        </p>
+        <ul>
+            <li><a href="https://taramruthur.shinyapps.io/BlueBikes/">Blue Bikes</a>: Bike-share Usage in Boston (Summer 2022) is an RShiny app that allows users to look at 
+                trends in usage for Blue Bikes, a Boston bike-share service, including station capacity and the number of unhappy customers in a day. Once the application is 
+                launched, users can pick between three tabs: the main tab (for information on Blue Bikes), the summary statistics tab (to see visualizations on the data), and 
+                the map simulations tab (to simulate bike-share usage throughout the day).</li>
+            <li><a href="https://github.com/taramz/project_one">Effects of Smoking During Pregnancy on Adolescent Behavior</a>: This project aims to explore the effects of 
+                smoking during pregnancy (SDP) and environmental tobacco smoke (ETS) exposure on adolescent self-regulation, substance use, and externalizing. The data used 
+                from this project comes from two studies, one of which was published in 2016. The data has not been made publicly available, but the information provided in 
+                this documentation will provide a thorough explanation of the data, while respecting data privacy. The code for this project will be provided, as well as 
+                summary tables that allow some insight into the data used.</li>
+            <li><a href="https://github.com/taramz/project_two">Predicting Likelihood of Receiving a Tracheostomy</a>: This study utilizes a national dataset of 996 infants 
+                with severe Bronchopulmonary Dysplasia (sBPD) from 10 centers, focusing on demographics, diagnostics, and respiratory parameters at 36 and 44 weeks 
+                post-menstrual age to predict if an infant should receive a tracheostomy. Concerns arise from a disproportionate center representation, potential biases, 
+                and notable tracheostomy percentage variations among centers. Variable selection identifies significant covariates, emphasizing prenatal corticosteroids, 
+                small for gestational age (SGA), inspired O2, medication for pulmonary hypertension (PH), and invasive positive pressure. Correlation analyses guide the 
+                exclusion of correlated metrics, and missing data patterns prompt careful imputation considerations. Fixed effects models and mixed-effects models, 
+                acknowledging center-level variation, reveal consistent predictors in both 36 and 44-week models. Evaluation metrics favor the 44-week model, indicating 
+                superior predictive accuracy, precision, and recall. Surprisingly, the addition of a random intercept for center minimally affects model performance on 
+                validation data, suggesting limited center-level variation. This study emphasizes the complexity of predicting tracheostomy in sBPD infants, providing 
+                direction for future predictive models for tracheostomy.</li>
+            <li><a href="https://github.com/taramz/project_three">Simulations and Transportability Analysis</a>: 
+                Empirical research often involves two distinct populations—the study and target populations—posing challenges for predictive model development due to 
+                potential discrepancies between them. Using data from the Framingham Study and NHANES, this investigation explores cardiovascular disease (CVD) prediction 
+                across diverse populations. While Framingham focuses on long-term CVD epidemiology, NHANES assesses the health of the U.S. population, highlighting population 
+                differences that complicate model generalizability. Transportability analysis, guided by the ADEMP framework and measured using the Brier score, evaluates 
+                model performance across datasets. Gender-specific simulations and multiple imputation address data gaps, revealing nuanced biases and disparities in 
+                performance, particularly between men and women, with limitations in data generation and computational constraints pointing to areas for further refinement.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3> Masters Thesis</h3>
+        <p> This section provides information on my masters thesis: a project spanning the second year of my masters program. This project involved conducting a literature
+            review, data pre-processing, model building, analysis of results, and finally, writing a paper. 
+        </p>
+
+        <h3><a href="https://repository.library.brown.edu/studio/item/bdr:e877ty9c/">Biologically Annotated Neural Networks for Case-Control Outcomes</a></h3>
+        <p>This study introduces Biologically Annotated Neural Networks (BANNs) for identifying causal Single Nucleotide Polymorphisms (SNPs) linked to complex traits. 
+            BANNs combine neural network flexibility with Bayesian variable selection, featuring an architecture that leverages existing relationships between SNPs and 
+            SNP-sets. Using a spike and slab prior, BANNs pinpoint relevant genetic variants, aiding interpretable inference of genetic effects. Parameter estimation employs 
+            the Variational Expectation Maximization Algorithm, refining model fit iteratively. BANNs enables efficient computation of posterior inclusion probabilities, 
+            offering insights into SNP relevance and enhancing model accuracy with both SNP and SNP-set level updates. Applied to the Wellcome Trust Case-Control Consortium 
+            (WTCCC) dataset, BANNs identify significant SNPs across seven diseases, validating known associations and revealing novel candidates like rs10914783's link to 
+            coronary artery disease. While spike and slab priors yield sparse collections of posterior inclusion probabilities, most diseases in the dataset exhibit 
+            significant p-values, indicating enrichment of BANN-identified gene-sets. Exceptions like hypertension and rheumatoid arthritis suggest potential factors like 
+            fewer common risk alleles or misclassification bias. Overlaps among significant SNP-sets hint at shared biological pathways between diseases, warranting further 
+            exploration. Notably, genes such as CSMD1 and PTPRD show significance across multiple diseases, emphasizing their potential role in disease susceptibility. 
+            In conclusion, Genome-Wide Association Studies (GWAS), exemplified by the WTCCC study, advance our comprehension of complex human diseases. Despite challenges 
+            posed by complex genetic architectures, Bayesian variable selection methods, and interpretable machine learning techniques like BANNs, offer promising avenues 
+            for enhancing precision medicine.</p>
     </section>
   </body>
 </html>
